@@ -66,6 +66,9 @@
     <Compile Include="Lesson7Brackets.cs" />
     <Compile Include="Lesson9MaxSliceSum.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
